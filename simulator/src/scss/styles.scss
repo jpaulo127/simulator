@@ -1,0 +1,50 @@
+$color-font: #fff;
+$color-bg-default: #33f;
+$color-bg-boxes: #f8e007;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url('../assets/background.jpg') no-repeat top center;
+    background-size: cover;
+    font-family: $font-default;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+
+}
+
+.container {
+   display: flex;
+   flex-flow: column;
+   margin: 0 auto;
+   max-width: 90vw;
+
+}
+
+#sobre {
+    background-color: white;
+}
+
+#produtos {
+
+}
+
+
+@import 'vitrine'
