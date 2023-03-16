@@ -1,5 +1,5 @@
 import '../scss/styles.scss'
-import imageBuilding from '../assets/building.jpg'
+/*import imageBuilding from '../assets/building.jpg'
 import imageNotebook from '../assets/notebook.jpg'
 
 const elemRoot = document.getElementById('root')
@@ -12,7 +12,7 @@ const elemImageNotebook = new Image()
 elemImageNotebook.src = imageNotebook
 
 document.querySelector('#building')
-    .appendChild(elemImageBuilding)
+   // .appendChild(elemImageBuilding)
 
 document.querySelector('#notebook')
-    .appendChild(elemImageNotebook)
+    .appendChild(elemImageNotebook)*/

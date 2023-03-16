@@ -1,26 +1,28 @@
+$color-primary: #195484;
+$color-segundary: #080400;
+$font-color-primary: #ffffff;
+$font-color-segundary: #454545;
 $color-font: #fff;
 $color-bg-default: #33f;
-$color-bg-boxes: #f8e007;
+$color-bg-boxes: #ff6539;
 $font-default: Arial, Helvetica, sans-serif;
 $font-size-default: 1.6rem;
+$font-size-nav: 1.2rem;
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
-    background: url('../assets/background.jpg') no-repeat top center;
+    background-color:#06253f ;
     background-size: cover;
-    font-family: $font-default;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    width: 100%;
-}
-
+#root,
 header,
 section,
 footer {
@@ -30,21 +32,22 @@ footer {
 
 }
 
+
 .container {
-   display: flex;
-   flex-flow: column;
-   margin: 0 auto;
-   max-width: 90vw;
-
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+    
 }
 
-#sobre {
-    background-color: white;
-}
+@import 'vitrine';
+@import 'font';
+@import 'nav';
+@import 'header';
+@import 'sobre';
+@import 'produtos';
+@import 'produtos2';
+@import 'vitrine2';
+@import 'footer';
 
-#produtos {
-
-}
-
-
-@import 'vitrine'

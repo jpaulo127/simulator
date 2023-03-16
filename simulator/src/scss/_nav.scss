@@ -1,0 +1,17 @@
+.nav {
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    align-items: center;
+    width: 100%;
+
+    &__item {
+        color: $font-color-primary;
+        font-size: $font-size-nav;
+        text-decoration: none;
+        &:hover {
+            color: $color-bg-boxes;
+        }
+    }
+}
