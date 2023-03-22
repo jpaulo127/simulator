@@ -9,6 +9,16 @@ $font-default: Arial, Helvetica, sans-serif;
 $font-size-default: 1.6rem;
 $font-size-nav: 1.2rem;
 
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -41,6 +51,7 @@ footer {
     
 }
 
+
 @import 'vitrine';
 @import 'font';
 @import 'nav';
@@ -51,4 +62,5 @@ footer {
 @import 'vitrine2';
 @import 'animetion';
 @import 'footer';
-
+@import 'grid';
+@import 'responsive';

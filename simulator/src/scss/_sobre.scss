@@ -1,13 +1,15 @@
 #sobre{
+    display: flex;
+    align-self: start;
     background-color: #062844 ;
-    max-width: 91%;
+    max-width: 85%;
     border-radius: 3rem;
-    padding: 5rem;
-    .container {
-        margin: 1%;
-        width: 95%;
-    }
+    padding: 1rem;
+    margin: 12rem;
 
+}
+    .container {
+    
     article {
         h1 {
             color: $color-bg-boxes;
@@ -18,5 +20,5 @@
             color: $font-color-primary;
             font-size: 1.5rem;
         }
-    }
+   }
 }
